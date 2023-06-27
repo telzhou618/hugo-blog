@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://telzhou618.github.io/'
 languageCode = 'en-us'
 title = 'BLOG'
 theme = "paper"
