@@ -1,7 +1,6 @@
 ---
 title: "Jvm"
 date: 2023-06-27T14:00:24+08:00
-draft: true
 categories: ["java","spring"]
 tags: ["aws","java"]
 ---

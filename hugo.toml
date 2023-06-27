@@ -17,14 +17,13 @@ theme = "paper"
   category = "categories"
   tag = "tags"
 
-disqusShortname = 'YOUR_DISQUS_SHORTNAME'   # use disqus comments
+# disqusShortname = 'YOUR_DISQUS_SHORTNAME'   # use disqus comments
 [params]
   # color style
   color = 'linen'                           # linen, wheat, gray, light
-
   # header social icons
-  twitter = 'YOUR_TWITTER_ID'               # twitter.com/YOUR_TWITTER_ID
-  github = 'YOUR_GITHUB_ID'                 # github.com/YOUR_GITHUB_ID
+#   twitter = 'https://github.com/telzhou618'               # twitter.com/YOUR_TWITTER_ID
+  github = 'telzhou618'                 # github.com/YOUR_GITHUB_ID
 #   instagram = 'YOUR_INSTAGRAM_ID'           # instagram.com/YOUR_INSTAGRAM_ID
 #   linkedin = 'YOUR_LINKEDIN_ID'             # linkedin.com/in/YOUR_LINKEDIN_ID
 #   mastodon = 'YOUR_MASTODON_LINK'           # e.g. 'https://mastodon.instance/@xxx'
@@ -33,7 +32,7 @@ disqusShortname = 'YOUR_DISQUS_SHORTNAME'   # use disqus comments
   # home page profile
   avatar = 'https://s.gravatar.com/avatar/9ff9514e4c37a5cb11be475190289857778d613942c4d6364c16e770a4cb66a0?s=80'                 # gravatar email or image url
   name = 'telzhou618'
-  bio = 'java,python,web,spring'
+  bio = 'java'
 
 
   # misc
