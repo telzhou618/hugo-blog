@@ -14,3 +14,8 @@ Visit the [Hugo](https://gohugo.io) website!
 ```sql
 select * from tb_user;  --查询用户
 ```
+
+## shell
+```shell
+cd /var/log/mysql
+```
