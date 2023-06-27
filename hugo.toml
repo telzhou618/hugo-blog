@@ -3,6 +3,20 @@ languageCode = 'en-us'
 title = 'BLOG'
 theme = "paper"
 
+[menu]
+[[menu.main]]
+  name = 'POSTS'
+  pageRef = '/post'
+  weight = 10
+[[menu.main]]
+  name = 'ABOUT'
+  pageRef = '/about'
+  weight = 40
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
 disqusShortname = 'YOUR_DISQUS_SHORTNAME'   # use disqus comments
 [params]
   # color style
@@ -11,10 +25,10 @@ disqusShortname = 'YOUR_DISQUS_SHORTNAME'   # use disqus comments
   # header social icons
   twitter = 'YOUR_TWITTER_ID'               # twitter.com/YOUR_TWITTER_ID
   github = 'YOUR_GITHUB_ID'                 # github.com/YOUR_GITHUB_ID
-  instagram = 'YOUR_INSTAGRAM_ID'           # instagram.com/YOUR_INSTAGRAM_ID
-  linkedin = 'YOUR_LINKEDIN_ID'             # linkedin.com/in/YOUR_LINKEDIN_ID
-  mastodon = 'YOUR_MASTODON_LINK'           # e.g. 'https://mastodon.instance/@xxx'
-  rss = true                                # show rss icon
+#   instagram = 'YOUR_INSTAGRAM_ID'           # instagram.com/YOUR_INSTAGRAM_ID
+#   linkedin = 'YOUR_LINKEDIN_ID'             # linkedin.com/in/YOUR_LINKEDIN_ID
+#   mastodon = 'YOUR_MASTODON_LINK'           # e.g. 'https://mastodon.instance/@xxx'
+#   rss = true                                # show rss icon
 
   # home page profile
   avatar = 'https://s.gravatar.com/avatar/9ff9514e4c37a5cb11be475190289857778d613942c4d6364c16e770a4cb66a0?s=80'                 # gravatar email or image url
@@ -23,8 +37,8 @@ disqusShortname = 'YOUR_DISQUS_SHORTNAME'   # use disqus comments
 
 
   # misc
-  disableHLJS = false                        # disable highlight.js
-  monoDarkIcon = false                       # show monochrome dark mode icon
+  disableHLJS = true                        # disable highlight.js
+  monoDarkIcon = true                       # show monochrome dark mode icon
   gravatarCdn = 'GRAVATAR_CDN_LINK'         # e.g. 'https://cdn.v2ex.com/gravatar/'
   graphCommentId = "YOUR_GRAPH_COMMENT_ID"  # use graph comment (disqus alternative)
   math = true                               # enable KaTex math typesetting globally
