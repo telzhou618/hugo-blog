@@ -1,3 +1,4 @@
 themes
 /.idea/
 /.hugo_build.lock
+/public/
