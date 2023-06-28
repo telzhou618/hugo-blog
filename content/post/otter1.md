@@ -71,11 +71,11 @@ clientPort=2181 # 端口默认2181
 ```shell
 sh bin/zkServer.sh
 ```
-测试是否成功
+连接zk
 ```shell
 bin/zkCli.sh
 ```
-看到如下类容说明zk安装成功。
+看到如下所示说明zk安装成功。
 ![image.png](https://raw.githubusercontent.com/telzhou618/images/main/img02/1686741630437-6862575e-3283-40eb-a71f-caf15a89db49.png)
 ## 安装 Canal
 下载最新文档的 Canal,下载地址：[https://github.com/alibaba/canal/releases](https://github.com/alibaba/canal/releases)
