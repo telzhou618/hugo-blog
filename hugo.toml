@@ -1,21 +1,21 @@
 baseURL = 'https://telzhou618.github.io'
 languageCode = 'en-us'
-title = 'BLOG'
+title = 'Home'
 theme = "paper"
 
-[menu]
-[[menu.main]]
-  name = 'POSTS'
-  pageRef = '/post'
-  weight = 10
-[[menu.main]]
-  name = 'ABOUT'
-  pageRef = '/about'
-  weight = 40
+# [menu]
+# [[menu.main]]
+#   name = 'POSTS'
+#   pageRef = '/post'
+#   weight = 10
+# [[menu.main]]
+#   name = 'ABOUT'
+#   pageRef = '/about'
+#   weight = 40
 
-[taxonomies]
-  category = "categories"
-  tag = "tags"
+# [taxonomies]
+#   category = "categories"
+#   tag = "tags"
 
 # disqusShortname = 'YOUR_DISQUS_SHORTNAME'   # use disqus comments
 [params]
@@ -39,5 +39,6 @@ theme = "paper"
   disableHLJS = true                        # disable highlight.js
   monoDarkIcon = true                       # show monochrome dark mode icon
   gravatarCdn = 'GRAVATAR_CDN_LINK'         # e.g. 'https://cdn.v2ex.com/gravatar/'
-  graphCommentId = "YOUR_GRAPH_COMMENT_ID"  # use graph comment (disqus alternative)
+  graphCommentId = "a42bc435-1a67-9bc8-2cde-72ec7ba0d2fb"  # use graph comment (disqus alternative)
+  comments = true
   math = true                               # enable KaTex math typesetting globally

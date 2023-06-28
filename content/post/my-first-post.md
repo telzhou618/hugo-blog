@@ -9,12 +9,4 @@ This is **bold** text, and this is *emphasized* text.
 
 Visit the [Hugo](https://gohugo.io) website!
 
-## SQL
-```sql
-select * from tb_user;  --查询用户
-```
-
-## shell
-```shell
-cd /var/log/mysql
-```
+## 11
