@@ -254,11 +254,9 @@ ProxyTransactionManagementConfiguration 类是一个配置类，他注册了三�
 
 AOP 在哪里找到 BeanFactoryTransactionAttributeSourceAdvisor ?
 
-![image.png](/_static/aop/img3.png)
-
-![image.png](/_static/aop/img4.png)
-
-![image.png](/_static/aop/img5.png)
+![](https://raw.githubusercontent.com/telzhou618/images/main/img02/img3.png)
+![](https://raw.githubusercontent.com/telzhou618/images/main/img02/img4.png)
+![](https://raw.githubusercontent.com/telzhou618/images/main/img02/img5.png)
 
 ## 何时调用事务方法
 
