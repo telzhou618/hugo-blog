@@ -4,7 +4,7 @@ date: 2023-06-28T11:40:09+08:00
 draft: true
 ---
 ## 环境变量文件存储位置
-```
+```markdown
 > /etc/paths （全局建议修改这个文件 ）
 > /etc/profile （建议不修改这个文件 ）
 > /etc/bashrc （一般在这个文件中添加系统级环境变量）
