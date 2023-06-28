@@ -1,6 +1,6 @@
 ---
 title: "Linux 常用命令"
-date: 2023-06-28T11:43:58+08:00
+date: 2023-06-28T14:43:58+08:00
 draft: true
 ---
 ## less
@@ -67,6 +67,7 @@ chown -R admin /var/log/
 ## chmod
 
 设置用户对文件的读、写、执行权限。
+![image.png](https://raw.githubusercontent.com/telzhou618/images/main/img02/1644229447505-8d572e68-0426-466e-a750-330c05e36803.png)
 
 命令格式：
 ```shell
