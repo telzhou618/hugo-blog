@@ -3,15 +3,15 @@ languageCode = 'en-us'
 title = 'Home'
 theme = "paper"
 
-# [menu]
-# [[menu.main]]
-#   name = 'POSTS'
-#   pageRef = '/post'
-#   weight = 10
-# [[menu.main]]
-#   name = 'ABOUT'
-#   pageRef = '/about'
-#   weight = 40
+[menu]
+[[menu.main]]
+  name = 'posts'
+  pageRef = '/post'
+  weight = 10
+[[menu.main]]
+  name = 'about'
+  pageRef = '/about'
+  weight = 20
 
 # [taxonomies]
 #   category = "categories"
