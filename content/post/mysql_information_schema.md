@@ -15,44 +15,27 @@ MySQL  表空间信息保存在哪 information_schema.TABLES  中。
 - 查看所有数据库的容量和大小
 ```sql
 select
- 
 table_schema as '数据库',
- 
 sum(table_rows) as '记录数',
- 
 sum(truncate(data_length/1024/1024, 2)) as '数据容量(MB)',
- 
 sum(truncate(index_length/1024/1024, 2)) as '索引容量(MB)',
-
 sum(truncate(data_free/1024/1024, 2)) as '碎片空间容量(MB)'
- 
 from information_schema.tables
- 
 group by table_schema
- 
 order by sum(data_length) desc, sum(index_length) desc
 ```
 
 - 查看指定数据库各个表容量大小
 ```sql
 select
- 
 table_schema as '数据库',
- 
 table_name as '表名',
- 
 table_rows as '记录数',
- 
 truncate(data_length/1024/1024, 2) as '数据容量(MB)',
- 
 truncate(index_length/1024/1024, 2) as '索引容量(MB)',
-
 sum(truncate(data_free/1024/1024, 2)) as '碎片空间容量(MB)'
- 
 from information_schema.tables
- 
 where table_schema='mysql' -- 数据库名称
- 
 order by data_length desc, index_length desc;
 ```
 
@@ -61,7 +44,8 @@ order by data_length desc, index_length desc;
 select 
 TABLE_SCHEMA, 
 concat(truncate(sum(data_length)/1024/1024,2),' MB') as data_size,
-concat(truncate(sum(index_length)/1024/1024,2),' MB') as index_size
+concat(truncate(sum(index_length)/1024/1024,2),' MB') as index_size,
+concat(truncate(sum(data_free)/1024/1024,2),' MB') as data_free_size
 from information_schema.tables
 group by TABLE_SCHEMA
 ORDER BY data_size desc;
@@ -72,7 +56,8 @@ ORDER BY data_size desc;
 select 
 TABLE_NAME, 
 concat(truncate(data_length/1024/1024,2),' MB') as data_size,
-concat(truncate(index_length/1024/1024,2),' MB') as index_size
+concat(truncate(index_length/1024/1024,2),' MB') as index_size,
+concat(truncate(sum(data_free)/1024/1024,2),' MB') as data_free_size
 from information_schema.tables 
 where TABLE_SCHEMA = '查询的表名'
 group by TABLE_NAME
@@ -81,7 +66,8 @@ order by data_length desc;
 > truncate 是MYSQL的系统函数，作用是按照小数点截取，但不进行四舍五入， TRUNCATE(X,D) ，其中X是数值，D是保留小数的位数。
 > 如： TRUNCATE(123.4567, 3); 结果是 123.456，TRUNCATE(123.4567, 2); 结果是 123.45
 
-- information_schema.TABLES   表常用字段及说明
+information_schema.TABLES   表常用字段及说明
+
   | 字段 | 含义 |
   | --- | --- |
   | Table_catalog | 数据表登记目录 |
