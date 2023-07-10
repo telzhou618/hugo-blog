@@ -66,7 +66,7 @@ order by data_length desc;
 > truncate 是MYSQL的系统函数，作用是按照小数点截取，但不进行四舍五入， TRUNCATE(X,D) ，其中X是数值，D是保留小数的位数。
 > 如： TRUNCATE(123.4567, 3); 结果是 123.456，TRUNCATE(123.4567, 2); 结果是 123.45
 
-information_schema.TABLES   表常用字段及说明
+- information_schema.TABLES   表常用字段及说明
 
   | 字段 | 含义 |
   | --- | --- |

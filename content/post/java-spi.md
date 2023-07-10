@@ -78,10 +78,10 @@ public class UsbDataProvider implements DataProvider {
 }
 
 ```
-然后在 resources 目录下依次创建目录 META-INF/services/
-在 services 目录创建配置文件，名称为接口类的完全限定名，这里是 com.example.DataProvider
-在文件内添加实现类的完全限定名，这里是 com.example.UsbDataProvider, 如果有多个实现，换行写入，每个实现类单独一行, 完整的结果如下
-文件路径：resource/META-INF/services/com.example.DataProvider，文件内容如下
+- 在 resources 目录下依次创建目录 META-INF/services/
+- 在 services 目录创建配置文件，名称为接口类的完全限定名，这里是 com.example.DataProvider
+- 在文件内添加实现类的完全限定名，这里是 com.example.UsbDataProvider, 如果有多个实现，换行写入，每个实现类单独一行, 完整的结果如下
+- 文件路径：resource/META-INF/services/com.example.DataProvider，文件内容如下
 ```shell
 com.example.UsbDataProvider
 ```
@@ -117,9 +117,8 @@ public class Main {
 ```shell
 从Usb接口获取数据...
 ```
-可以看到拿到了 UsbDataProvider 对象实例，并且调用 getData方法成功获取到数据。
-
-原理：ServiceLoader 会扫描所有jar包的 DataProvider 配置文件，加载实现类，并通过反射实例化。
+- 可以看到拿到了 UsbDataProvider 对象实例，并且调用 getData方法成功获取到数据。
+- 原理：ServiceLoader 会扫描所有jar包的 DataProvider 配置文件，加载实现类，并通过反射实例化。
 
 如果有一天要用Typec获取数据，在不修改代码的情况下如何实现？
 ### typc实现
