@@ -4,7 +4,7 @@ date: 2023-06-27T15:18:48+08:00
 draft: true
 ---
 
-一枚老实的 Java 程序员，联系邮箱：btczhou618@gmail.com
+一个老实的 Java 程序员，联系邮箱：btczhou618@gmail.com。
 
 # 开源贡献
 
@@ -16,3 +16,6 @@ draft: true
 - 【文章】一文搞懂RocketMQ， [https://telzhou618.github.io/post/rocketmq](https://telzhou618.github.io/post/rocketmq/)
 - 【文章】MySQL优化及索引设计规范，[https://telzhou618.github.io/post/mysql-review](https://telzhou618.github.io/post/mysql-review/)
 - 【文章】SpringAOP从入门到源码解析，[https://telzhou618.github.io/post/spring-aop](https://telzhou618.github.io/post/spring-aop/)
+
+# 兴趣爱好
+游泳和书法。
