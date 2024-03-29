@@ -5,11 +5,11 @@ theme = "paper"
 
 [menu]
 [[menu.main]]
-  name = 'posts'
+  name = 'Posts'
   pageRef = '/post'
   weight = 10
 [[menu.main]]
-  name = 'about'
+  name = 'About'
   pageRef = '/about'
   weight = 20
 
