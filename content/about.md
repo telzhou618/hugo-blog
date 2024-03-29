@@ -4,7 +4,7 @@ date: 2023-06-27T15:18:48+08:00
 draft: true
 ---
 
-一个老实的 Java 程序员，联系邮箱：btczhou618@gmail.com。
+Java 程序员，联系邮箱：btczhou618@gmail.com。
 
 # 开源贡献
 
