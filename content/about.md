@@ -4,7 +4,7 @@ date: 2023-06-27T15:18:48+08:00
 draft: true
 ---
 
-Java 程序员，联系邮箱：telzhou618@foxmail.com
+Java 程序员，略懂Python，联系邮箱：telzhou618@foxmail.com
 
 # 开源贡献
 
