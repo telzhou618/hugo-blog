@@ -6,9 +6,12 @@ languageCode = "zh-CN"
 # 是否包括中日韩文字
 hasCJKLanguage = true
 # 网站标题
-title = "Home"
+title = "扁舟的博客"
 # 更改使用 Hugo 构建网站时使用的默认主题
 theme = "FixIt"
+enableGitInfo = false
+# whether to use emoji code
+enableEmoji = true
 
 [menu]
 [[menu.main]]
@@ -78,5 +81,83 @@ theme = "FixIt"
   # FixIt theme version
   version = "0.3.X" # e.g. "0.2.X", "0.2.15", "v0.2.15" etc.
   # ...
+  # 首页信息
+  [params.home]
+    paginate = 10
+    # 首页头像信息
+    [params.home.profile]
+      enable = true
+      gravatarEmail = "telzhou618@qq.com"
+      avatarURL = "https://avatars.githubusercontent.com/u/6360011?v=4"
+      avatarMenu = ""
+      title = "扁舟的博客"
+      subtitle = "这是一个程序员的博客，欢迎你的到来！"
+      typeit = true
+      social = true
+      disclaimer = ""
+    # 首页文章配置
+    [params.home.posts]
+      enable = true
+      paginate = 10
+  [params.social]
+    [params.social.Github]
+      # 排列图标时的权重（权重越大，图标的位置越靠后）
+      weight = 0
+      # 你的社交 ID
+      id = "telzhou618"
+      # 你的社交链接的前缀
+      prefix = "https://github.com/"
+      # 当鼠标停留在图标上时的提示内容
+      title = "Github"
+  [params.author]
+    name = "telzhou618"
+    email = "telzhou618@qq.com"
+    link = "https://github.com/telzhou618"
+    avatar = "https://avatars.githubusercontent.com/u/6360011?v=4"
 
+  [params.gitInfo]
+    repo = "https://github.com/telzhou618/hugo-blog"
+    branch = "main"
+    # 阅读进度条
+  [params.readingProgress]
+    enable = true
+    start = "left"
+    position = "top"
+    reversed = false
+    light = ""
+    dark = ""
+    height = "2px"
+  # 页面加载进度条
+  [params.pace]
+    enable = true
+    color = "blue"
+    theme = "minimal"
+  # 返回顶部配置
+  [params.backToTop]
+    enable = true
+    scrollpercent = false
+  # 搜索配置
+  [params.search]
+    enable = true
+    type = "fuse"
+    contentLength = 4000
+    placeholder = ""
+    maxResultLength = 10
+    snippetLength = 30
+    highlightTag = "em"
+    absoluteURL = false
+    [params.search.algolia]
+      index = ""
+      appID = ""
+      searchKey = ""
+    [params.search.fuse]
+      isCaseSensitive = false
+      minMatchCharLength = 2
+      findAllMatches = false
+      location = 0
+      threshold = 0.3
+      distance = 100
+      ignoreLocation = false
+      useExtendedSearch = false
+      ignoreFieldNorm = false
 
