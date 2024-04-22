@@ -1,7 +1,10 @@
 ---
 title: "Java SPI 应用"
 date: 2023-07-05T16:15:58+08:00
-draft: true
+tags:
+  - java
+categories:
+  - java
 ---
 Java SPI（Service Provider Interface）是Java平台提供的一种机制，用于实现服务发现和扩展的功能。它允许开发人员定义一组接口，然后允许其他开发人员在应用程序中提供不同的实现。
 ## 举个例子

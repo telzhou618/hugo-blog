@@ -1,7 +1,10 @@
 ---
 title: "Mac 更换控制台 shell"
 date: 2023-06-28T11:37:30+08:00
-draft: true
+tags:
+  - linux
+categories:
+  - linux
 ---
 
 ## shell 常用命令

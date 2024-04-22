@@ -1,6 +1,11 @@
 ---
-title: "Redis 从入门到入土"
+title: "Redis 从入门到精通"
 date: 2023-06-28T14:44:07+08:00
+tags:
+  - redis
+categories:
+  - db
+  - 中间件
 ---
 
 ![img](https://raw.githubusercontent.com/telzhou618/images/main/img01/1*1gUAG0m0infLs92uSpw9nA.png)

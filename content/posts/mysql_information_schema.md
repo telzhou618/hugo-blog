@@ -1,7 +1,10 @@
 ---
 title: "MYSQL 表空间分析"
 date: 2023-07-10T21:36:57+08:00
-draft: true
+tags:
+  - mysql
+categories:
+  - db
 ---
 
 ## 删除数据并释放空间命令

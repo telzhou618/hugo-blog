@@ -1,6 +1,10 @@
 ---
 title: "MySQL 优化及索引设计规范"
 date: 2022-06-28T11:44:07+08:00
+tags:
+  - mysql
+categories:
+  - db
 ---
 索引是帮助MySQL高效获取数据的排好序的数据结构。
 

@@ -1,7 +1,10 @@
 ---
 title: "Homebrew 常用命令"
 date: 2023-06-28T11:44:07+08:00
-draft: true
+tags:
+  - other
+categories:
+  - other
 ---
 ## mac 软件包管理工具
 ```shell

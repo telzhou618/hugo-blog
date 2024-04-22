@@ -1,6 +1,11 @@
 ---
 title: "JVM 常用参数"
 date: 2022-06-28T11:44:07+08:00
+tags:
+  - java
+  - jvm
+categories:
+  - java
 ---
 ## 开启TLAB
 

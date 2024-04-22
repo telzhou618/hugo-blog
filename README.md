@@ -6,7 +6,7 @@ hugo new posts/my-first-posts.md
 ```
 ## 运行
 ```shell
-hugo server -D
+hugo server -D # -D 渲染文章配置了 draft: true 的内容
 ```
 
 ## 编译生成静态博客到 public目录

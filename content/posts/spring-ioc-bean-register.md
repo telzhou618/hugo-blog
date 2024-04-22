@@ -1,6 +1,11 @@
 ---
 title: "Spring容器注册bean有哪些方式？"
 date: 2022-06-28T11:44:07+08:00
+tags:
+  - java
+  - spring
+categories:
+  - java
 ---
 常见注册bean对象到spring容器的方式:
 

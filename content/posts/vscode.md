@@ -1,6 +1,10 @@
 ---
 title: "Vscode 常用快捷键"
 date: 2022-06-28T11:44:07+08:00
+tags:
+  - vscode
+categories:
+  - other
 ---
 ## 查找
 

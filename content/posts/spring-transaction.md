@@ -1,6 +1,11 @@
 ---
 title: "Spring 事务源码解析"
 date: 2022-06-28T11:44:07+08:00
+tags:
+  - java
+  - spring
+categories:
+  - java
 ---
 Spring 事务利用AOP原理实现,主要过程和AOP原理一样，可以分为三步，启用事务、生成代理对对象、执行。
 

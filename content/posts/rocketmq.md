@@ -1,6 +1,11 @@
 ---
 title: "一文搞懂 RocketMQ"
 date: 2022-06-28T11:44:07+08:00
+tags:
+  - java
+  - rocketmq
+categories:
+  - 中间件
 ---
 ## RocketMQ 集群架构图
 

@@ -1,12 +1,10 @@
 ---
 title: "Otter数据同步1 - 环境搭建"
 date: 2023-06-28T17:39:33+08:00
-draft: true
-
 tags:
   - otter
 categories:
-  - 数据库
+  - 中间件
 
 ---
 
