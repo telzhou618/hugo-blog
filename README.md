@@ -2,7 +2,7 @@
 
 ## 新建文章
 ```shell
-hugo new post/my-first-post.md
+hugo new posts/my-first-posts.md
 ```
 ## 运行
 ```shell

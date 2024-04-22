@@ -1,44 +1,82 @@
 baseURL = 'https://telzhou618.github.io'
-languageCode = 'en-us'
-title = 'Home'
-theme = "paper"
+# [en, zh-cn, fr, ...] 设置默认的语言
+defaultContentLanguage = "zh-cn"
+# 网站语言, 仅在这里 CN 大写
+languageCode = "zh-CN"
+# 是否包括中日韩文字
+hasCJKLanguage = true
+# 网站标题
+title = "Home"
+# 更改使用 Hugo 构建网站时使用的默认主题
+theme = "FixIt"
 
 [menu]
 [[menu.main]]
   name = 'Posts'
-  pageRef = '/post'
-  weight = 10
+  pageRef = '/posts'
+  weight = 1
+[[menu.main]]
+  name = 'Archives'
+  pageRef = '/archives'
+  weight = 2
+[[menu.main]]
+  name = 'Categories'
+  pageRef = '/categories'
+  weight = 3
+[[menu.main]]
+  name = 'Tags'
+  pageRef = '/tags'
+  weight = 4
 [[menu.main]]
   name = 'About'
   pageRef = '/about'
-  weight = 20
+  weight = 5
 
-# [taxonomies]
-#   category = "categories"
-#   tag = "tags"
+[markup]
+  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+  [markup.highlight]
+    ########## necessary configurations ##########
+    # https://github.com/hugo-fixit/FixIt/issues/43
+    codeFences = true
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+    ########## necessary configurations ##########
+    guessSyntax = true
+  # Goldmark is from Hugo 0.60 the default library used for Markdown
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.renderer]
+      # whether to use HTML tags directly in the document
+      unsafe = true
+  # Table Of Contents settings
+  [markup.tableOfContents]
+    ordered = false
+    startLevel = 2
+    endLevel = 6
 
-# disqusShortname = 'YOUR_DISQUS_SHORTNAME'   # use disqus comments
+[outputs]
+  home = ["HTML", "RSS", "JSON", "archives"]
+  page = ["HTML", "MarkDown"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML"]
+  term = ["HTML", "RSS"]
+
+# -------------------------------------------------------------------------------------
+# Theme Core Configuration
+# See: https://fixit.lruihao.cn/documentation/basics/#theme-configuration
+# -------------------------------------------------------------------------------------
+
 [params]
-  # color style
-  color = 'linen'                           # linen, wheat, gray, light
-  # header social icons
-#   twitter = 'https://github.com/telzhou618'               # twitter.com/YOUR_TWITTER_ID
-  github = 'telzhou618'                 # github.com/YOUR_GITHUB_ID
-#   instagram = 'YOUR_INSTAGRAM_ID'           # instagram.com/YOUR_INSTAGRAM_ID
-#   linkedin = 'YOUR_LINKEDIN_ID'             # linkedin.com/in/YOUR_LINKEDIN_ID
-#   mastodon = 'YOUR_MASTODON_LINK'           # e.g. 'https://mastodon.instance/@xxx'
-#   rss = true                                # show rss icon
-
-  # home page profile
-  avatar = 'https://s.gravatar.com/avatar/9ff9514e4c37a5cb11be475190289857778d613942c4d6364c16e770a4cb66a0?s=80'                 # gravatar email or image url
-  name = 'telzhou618'
-  bio = 'java'
+  # FixIt theme version
+  version = "0.3.X" # e.g. "0.2.X", "0.2.15", "v0.2.15" etc.
+  # ...
 
 
-  # misc
-  disableHLJS = true                        # disable highlight.js
-  monoDarkIcon = true                       # show monochrome dark mode icon
-  gravatarCdn = 'GRAVATAR_CDN_LINK'         # e.g. 'https://cdn.v2ex.com/gravatar/'
-  graphCommentId = "a42bc435-1a67-9bc8-2cde-72ec7ba0d2fb"  # use graph comment (disqus alternative)
-  comments = true
-  math = true                               # enable KaTex math typesetting globally
