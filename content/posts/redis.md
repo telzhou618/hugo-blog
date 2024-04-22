@@ -8,7 +8,7 @@ categories:
   - 中间件
 ---
 
-![img](https://raw.githubusercontent.com/telzhou618/images/main/img01/1*1gUAG0m0infLs92uSpw9nA.png)
+{{< figure src="https://raw.githubusercontent.com/telzhou618/images/main/img01/1*1gUAG0m0infLs92uSpw9nA.png" title="Redis分布式架构" >}}
 
 ## Redis 是什么
 

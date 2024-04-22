@@ -8,8 +8,7 @@ categories:
 ---
 ##  Docker 架构
 
-![image-20210810154908558](https://raw.githubusercontent.com/telzhou618/images/main/img/image-20210810154908558.png)
-
+{{< figure src="https://raw.githubusercontent.com/telzhou618/images/main/img/image-20210810154908558.png" title="Docker架构" >}}
 
 
 Docker 主要组件包括 Client、Daemon、Images、Container、Registry。
