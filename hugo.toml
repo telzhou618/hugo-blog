@@ -15,23 +15,23 @@ enableEmoji = true
 
 [menu]
 [[menu.main]]
-  name = 'Posts'
+  name = '文章'
   pageRef = '/posts'
   weight = 1
 [[menu.main]]
-  name = 'Archives'
+  name = '归档'
   pageRef = '/archives'
   weight = 2
 [[menu.main]]
-  name = 'Categories'
+  name = '分类'
   pageRef = '/categories'
   weight = 3
 [[menu.main]]
-  name = 'Tags'
+  name = '标签'
   pageRef = '/tags'
   weight = 4
 [[menu.main]]
-  name = 'About'
+  name = '关于'
   pageRef = '/about'
   weight = 5
 
@@ -92,7 +92,7 @@ enableEmoji = true
       avatarMenu = ""
       title = "扁舟的博客"
       subtitle = "这是一个程序员的博客，欢迎你的到来！"
-      typeit = true
+      typeit = false
       social = true
       disclaimer = ""
     # 首页文章配置
