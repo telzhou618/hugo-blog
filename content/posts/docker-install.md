@@ -4,10 +4,9 @@ subtitle:
 date: 2023-04-11T10:08:32+08:00
 tags:
   - docker
-  - k8s
 categories:
   - 中间件
-  - k8s
+  - devops
 ---
 
 ## docker 安装
