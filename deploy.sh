@@ -1,4 +1,5 @@
 echo 'build'
+rm -rf public
 hugo -D
 cp -rf public/* deploy/
 cd deploy
