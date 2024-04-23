@@ -1,7 +1,7 @@
 ---
 title: CentOS 安装Docker
 subtitle:
-date: 2024-04-23T10:08:32+08:00
+date: 2023-04-11T10:08:32+08:00
 tags:
   - docker
   - k8s
