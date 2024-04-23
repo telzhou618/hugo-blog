@@ -88,7 +88,7 @@ enableEmoji = true
     [params.home.profile]
       enable = true
       gravatarEmail = "telzhou618@qq.com"
-      avatarURL = "https://avatars.githubusercontent.com/u/6360011?v=4"
+      avatarURL = "https://raw.githubusercontent.com/telzhou618/images/main/img03/20240423112108.png"
       avatarMenu = ""
       title = "扁舟的博客"
       subtitle = "这是一个程序员的博客，欢迎你的到来！"
@@ -113,7 +113,7 @@ enableEmoji = true
     name = "telzhou618"
     email = "telzhou618@qq.com"
     link = "https://github.com/telzhou618"
-    avatar = "https://avatars.githubusercontent.com/u/6360011?v=4"
+    avatar = "https://raw.githubusercontent.com/telzhou618/images/main/img03/20240423112108.png"
 
   [params.gitInfo]
     repo = "https://github.com/telzhou618/hugo-blog"

@@ -1,6 +1,6 @@
 ---
 title: "MySQL 优化及索引设计规范"
-date: 2022-06-28T11:44:07+08:00
+date: 2023-08-28T11:44:07+08:00
 tags:
   - mysql
 categories:
@@ -16,6 +16,7 @@ mysql.server stop  // 停止MYSQL
 ./mysqld_safe --data=../data // 从data备份中恢复数据
 ./mysql_secure_installation // 修改管理员密码
 ```
+<!--more-->
 
 ## 索引的优缺点
 
@@ -26,6 +27,7 @@ mysql.server stop  // 停止MYSQL
 - 索引可以将随机IO变为顺序IO。
 
 缺点
+
 
 - 创建索引和维护索引要耗费时间 ，这种时间随着数据量的增加而增加。
 - 索引需要占物理空间 。

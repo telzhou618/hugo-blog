@@ -10,6 +10,7 @@ categories:
 
 {{< figure src="https://raw.githubusercontent.com/telzhou618/images/main/img01/1*1gUAG0m0infLs92uSpw9nA.png" title="Redis分布式架构" >}}
 
+
 ## Redis 是什么
 
 Redis 是一个高性能的基于内存实现的K-V存储数据库 。

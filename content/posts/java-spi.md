@@ -1,6 +1,6 @@
 ---
 title: "Java SPI 应用"
-date: 2023-07-05T16:15:58+08:00
+date: 2023-03-05T16:15:58+08:00
 tags:
   - java
 categories:

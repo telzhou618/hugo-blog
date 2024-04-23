@@ -9,7 +9,6 @@ categories:
   - devops
 ---
 
-<!--more-->
 ## 安装最新 git
 安装在最新yum源,ius源官方：https://ius.io/setup
 ```shell
@@ -24,6 +23,7 @@ https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
  git --version
 
 ```
+
 ## linux 配置
 生成rsa公钥和秘钥,运行ssk-keygen 一路回车，注意，如果秘钥已存在会覆盖
 ```shell
