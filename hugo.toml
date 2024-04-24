@@ -160,4 +160,22 @@ enableEmoji = true
       ignoreLocation = false
       useExtendedSearch = false
       ignoreFieldNorm = false
+  # 代码配置
+  [params.page.code]
+    # 是否显示代码块的复制按钮
+    copy = true
+    # FixIt 0.2.13 | 新增 是否显示代码块的编辑按钮
+    edit = false
+    # 默认展开显示的代码行数
+    maxShownLines = 20
+  # 评论配置
+  [params.page.comment]
+        enable = true
+        # FixIt 0.1.1 | 新增 Gitalk 评论系统设置 (https://github.com/gitalk/gitalk)
+        [params.page.comment.gitalk]
+          enable = true
+          owner = "telzhou618"
+          repo = "https://github.com/telzhou618/hugo-blog-comments.git"
+          clientId = "Iv1.8ffe89ccf06594a1"
+          clientSecret = "9f0b65b0841a8ea3a7c28abce140eba79f8b69f8"
 
