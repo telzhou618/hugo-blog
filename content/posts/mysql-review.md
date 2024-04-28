@@ -7,6 +7,8 @@ categories:
   - db
 ---
 
+{{< figure src="https://raw.githubusercontent.com/telzhou618/images/main/img03/20240428214159.png" title="" >}}
+
 索引是帮助MySQL高效获取数据的排好序的数据结构。
 
 ## 索引的优缺点
