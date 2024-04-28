@@ -6,9 +6,8 @@ tags:
 categories:
   - db
 ---
-索引是帮助MySQL高效获取数据的排好序的数据结构。
-<!--more-->
 
+索引是帮助MySQL高效获取数据的排好序的数据结构。
 
 ## 索引的优缺点
 
@@ -34,7 +33,7 @@ categories:
 ## 索引数据结构
 
 常见的索引数据结构有Hash表、二叉树、平衡二叉树、红黑树、B-Tree、B+Tree。
-![](https://raw.githubusercontent.com/telzhou618/images/main/img03/m0.png)
+{{< figure src="https://raw.githubusercontent.com/telzhou618/images/main/img03/m0.png" title="索引数据结构" >}}
 
 1. Hash 索引：Hash 表只能做等值匹配，效率很高。但是不支持范围查找和排序，因为取每个数据要做hash运算，只有取出来才能知道他是什么。
 2. 二叉树：二叉树极端情况下树会变成一个链表，也不适合做索引。
