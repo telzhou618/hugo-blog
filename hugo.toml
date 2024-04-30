@@ -86,7 +86,7 @@ enableEmoji = true
     paginate = 10
     # 首页头像信息
     [params.home.profile]
-      enable = false
+      enable = true
       gravatarEmail = "telzhou618@qq.com"
       avatarURL = "https://raw.gitmirror.com/telzhou618/images/main/img03/20240423112108.png"
       avatarMenu = ""
