@@ -9,7 +9,7 @@ categories:
 ---
 ## RocketMQ 集群架构图
 
-![rocketmq_architecture_1](https://raw.githubusercontent.com/telzhou618/images/main/img/rocketmq_architecture_1.png)
+![rocketmq_architecture_1](https://raw.gitmirror.com/telzhou618/images/main/img/rocketmq_architecture_1.png)
 
 ## RocketMQ 四大核心集群
 
@@ -173,7 +173,7 @@ consumer.subscribe("TOPIC", "TAGA || TAGB || TAGC");
 
 RocketMQ 实现消息持久化存储，主要有如下三种文件组成。
 
-![rocketmq_design_1](https://raw.githubusercontent.com/telzhou618/images/main/img/rocketmq_design_1.png)
+![rocketmq_design_1](https://raw.gitmirror.com/telzhou618/images/main/img/rocketmq_design_1.png)
 
 - CommitLog：具体存储消息的载体，提前申请连续存储空间，顺序写入速度快。
 - ConsumeQueue：消费队列，记录Topic和消息存储关系，已经记录消息的当前消费位置（偏移量）。

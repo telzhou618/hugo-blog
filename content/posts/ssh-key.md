@@ -30,7 +30,7 @@ https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 ssh-keygen -t rsa -b 4096 -C "telzhou618@qq.com"
 ```
 参数说明：
-![](https://raw.githubusercontent.com/telzhou618/images/main/img03/20240501011832.png)
+![](https://raw.gitmirror.com/telzhou618/images/main/img03/20240501011832.png)
 
 ## linux 生成本地秘钥
 生成 rsa 算法公钥和秘钥,运行ssk-keygen 一路回车，注意，如果秘钥已存在会覆盖
@@ -42,11 +42,11 @@ ssh-keygen -t rsa -b 4096 -C "telzhou618@qq.com"
 - -C ：大C，注释说明
 - -f ：保存秘钥的文件名
 
-![](https://raw.githubusercontent.com/telzhou618/images/main/img03/20240423100359.png)
+![](https://raw.gitmirror.com/telzhou618/images/main/img03/20240423100359.png)
 
 复制公钥（id_rsa.pub）文件中的内容填写在gitlab中。
 
-![](https://raw.githubusercontent.com/telzhou618/images/main/img03/20240423095344.png)
+![](https://raw.gitmirror.com/telzhou618/images/main/img03/20240423095344.png)
 
 然后再 git clone, 不需要再输入用户名和密码。
 
@@ -58,7 +58,7 @@ ssh-keygen -t rsa -b 4096 -C "telzhou618@qq.com"
 cat /c/Users/Administrator/.ssh/id_rsa.pub
 ```
 
-![](https://raw.githubusercontent.com/telzhou618/images/main/img03/20240423100106.png)
+![](https://raw.gitmirror.com/telzhou618/images/main/img03/20240423100106.png)
 
 设置到 gitlab, 和前面linux一样。
 
