@@ -194,7 +194,7 @@ EXPOSE 8080
 ENTRYPOINT java ${JAVA_OPTS} -jar /app.jar
 
 ```
-<!--more-->
+
 
 
 
