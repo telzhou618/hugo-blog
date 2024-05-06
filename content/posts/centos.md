@@ -5,7 +5,8 @@ date: 2023-05-02T13:17:07+08:00
 slug: f460746
 draft: true
 tags:
-  - linux
+  - centos
+  - ssh
 categories:
   - linux
 ---

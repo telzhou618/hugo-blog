@@ -3,6 +3,7 @@ title: "JAVA8 debug 技巧"
 date: 2022-06-28T11:44:07+08:00
 tags:
   - java
+  - java8
 categories:
   - java
 ---

@@ -1,6 +1,7 @@
 ---
 title: "About me"
 date: 2023-06-27T15:18:48+08:00
+layout: about
 ---
 
 ## 自我介绍

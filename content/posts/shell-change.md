@@ -2,7 +2,8 @@
 title: "Mac 更换控制台 shell"
 date: 2023-06-28T11:37:30+08:00
 tags:
-  - linux
+  - mac
+  - shell
 categories:
   - linux
 ---

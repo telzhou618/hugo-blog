@@ -3,15 +3,10 @@ title: Jenkins 的三种安装方式
 subtitle:
 date: 2024-03-24T00:48:45+08:00
 slug: 704c8ae
-draft: true
 tags:
-  - draft
+  - jenkins
 categories:
-  - draft
-hiddenFromHomePage: false
-hiddenFromSearch: false
-hiddenFromRss: false
-hiddenFromRelated: false
+  - devops
 ---
 
 

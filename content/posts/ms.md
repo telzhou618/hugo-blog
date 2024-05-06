@@ -5,9 +5,9 @@ date: 2024-04-24T10:45:43+08:00
 slug: 57808a6
 draft: true
 tags:
-  - draft
+  - 微服务
 categories:
-  - draft
+  - java
 hiddenFromHomePage: true
 hiddenFromSearch: false
 hiddenFromRss: false

@@ -2,7 +2,7 @@
 title: "Mac 修改环境变量"
 date: 2023-06-28T11:40:09+08:00
 tags:
-  - other
+  - mac
 categories:
   - other
 ---

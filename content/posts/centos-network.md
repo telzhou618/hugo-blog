@@ -1,16 +1,14 @@
 ---
-title: centos 网络错误问题解决
+title: Centos 网络错误问题解决
 subtitle:
 date: 2024-05-06T10:45:43+08:00
 slug: 57808a3
 tags:
-  - draft
+  - centos
 categories:
-  - draft
+  - linux
 
 ---
-
-<!--more-->
 
 虚拟机 centos 启动后网络无法启动报错
 

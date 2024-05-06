@@ -1,14 +1,13 @@
 ---
-title: 【k8s学习笔记】 Kubekey安装k8s和kubesphere
+title: k8s学习笔记 - Kubekey安装k8s和kubesphere
 date: 2024-05-06T18:26:04+08:00
 slug: fbb3944
 tags:
   - k8s
+  - kubesphere
 categories:
   - devops
 ---
-
-<!--more-->
 
 ## Kubekey 一键安装k8s
 

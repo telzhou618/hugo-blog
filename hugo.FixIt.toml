@@ -86,7 +86,7 @@ enableEmoji = true
     paginate = 10
     # 首页头像信息
     [params.home.profile]
-      enable = false
+      enable = true
       gravatarEmail = "telzhou618@qq.com"
       avatarURL = "https://raw.gitmirror.com/telzhou618/images/main/img03/20240423112108.png"
       avatarMenu = ""
@@ -98,7 +98,7 @@ enableEmoji = true
     # 首页文章配置
     [params.home.posts]
       enable = true
-      paginate = 5
+      paginate = 10
   [params.social]
     [params.social.Github]
       # 排列图标时的权重（权重越大，图标的位置越靠后）

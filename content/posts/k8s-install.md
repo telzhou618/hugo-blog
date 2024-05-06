@@ -1,5 +1,5 @@
 ---
-title: 【k8s学习笔记】 k8s安装和基本用法
+title: k8s学习笔记 - k8s安装和基本用法
 subtitle:
 date: 2024-05-06T18:25:28+08:00
 slug: 8a64657
@@ -9,8 +9,6 @@ tags:
 categories:
   - devops
 ---
-
-<!--more-->
 
 ## 安装 k8s
 
