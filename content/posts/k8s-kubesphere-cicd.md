@@ -1,5 +1,5 @@
 ---
-title: 【k8s学习笔记】 Kunesphere CI/CD流谁线自动化部署
+title: 【k8s学习笔记】 Kubesphere CI/CD流谁线自动化部署
 date: 2024-05-06T18:26:14+08:00
 slug: a9d96f7
 tags:
