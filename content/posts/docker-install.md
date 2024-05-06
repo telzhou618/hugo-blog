@@ -1,5 +1,5 @@
 ---
-title: CentOS 安装Docker
+title: CentOS 安装 Docker
 subtitle:
 date: 2023-04-11T10:08:32+08:00
 tags:
