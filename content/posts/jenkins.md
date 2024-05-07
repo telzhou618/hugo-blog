@@ -1,7 +1,7 @@
 ---
 title: Jenkins 的三种安装方式
 subtitle:
-date: 2024-03-24T00:48:45+08:00
+date: 2024-03-02
 slug: 704c8ae
 tags:
   - jenkins

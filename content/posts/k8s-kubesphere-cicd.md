@@ -1,6 +1,6 @@
 ---
 title: k8s学习笔记 - Kubesphere CI/CD流谁线自动化部署
-date: 2024-05-06T18:26:14+08:00
+date: 2024-03-08
 slug: a9d96f7
 tags:
   - k8s

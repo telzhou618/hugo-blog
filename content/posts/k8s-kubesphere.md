@@ -1,6 +1,6 @@
 ---
 title: k8s学习笔记 - Kubekey安装k8s和kubesphere
-date: 2024-05-06T18:26:04+08:00
+date: 2024-03-07
 slug: fbb3944
 tags:
   - k8s

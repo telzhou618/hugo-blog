@@ -1,7 +1,7 @@
 ---
 title: k8s学习笔记 - k8s安装和基本用法
 subtitle:
-date: 2024-05-06T18:25:28+08:00
+date: 2024-03-06
 slug: 8a64657
 draft: false
 tags:

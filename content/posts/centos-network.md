@@ -1,7 +1,7 @@
 ---
 title: Centos 网络错误问题解决
 subtitle:
-date: 2024-05-06T10:45:43+08:00
+date: 2024-03-01
 slug: 57808a3
 tags:
   - centos
